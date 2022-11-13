@@ -270,3 +270,92 @@ nav {
         margin-top: 25px;
     }
 }
+
+
+
+
+/* second page css */
+.rivers-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+.Idaho {
+    grid-column: 2/14;
+    grid-row: 2/6;
+    display: grid;
+    display: grid;
+    grid-template-columns:repeat(12, 1fr);
+    grid-template-rows: repeat(5,100px);
+}
+.Utah{
+    grid-column: 2/14;
+    grid-row: 8/12;
+    display: grid;
+    grid-template-columns:repeat(12, 1fr);
+    grid-template-rows: repeat(5,100px);
+}
+.Grand{
+    grid-column: 2/14;
+    grid-row: 14/19;
+    display: grid;
+    grid-template-columns:repeat(12, 1fr);
+    grid-template-rows: repeat(5,100px);
+}
+.end-stuff{
+    grid-column: 2/14;
+    grid-row: 20/25;
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(12, 1fr);
+    grid-template-rows: repeat(5,100px);
+}
+.river-img1 {
+    grid-column: 1/6;
+    grid-row: 1/6;
+    width: 100%;
+    margin-top: 83px;
+}
+.Idaho-text {
+    grid-column: 7/14;
+    grid-row: 1/6;
+    width: 100%;
+    height: 100%;
+    font-size: 90%;
+}
+.river-img2 {
+    grid-column: 8/14;
+    grid-row:1/6;
+    width: 100%;
+    margin-top: 99px;
+}
+.Utah-text{
+    grid-column: 1/7;
+    grid-row: 1/6;
+    width: 100%;
+    font-size: 105%;
+}
+.river-img3{
+    grid-column: 1/6;
+    grid-row: 1/6;
+    width: 100%;
+    margin-top: 83px;
+}
+.grand-text{
+    grid-column: 7/13;
+    grid-row: 1/6;
+    width: 100%;
+    font-size: 110%;
+}
+.river-img4{
+    grid-column: 8/13;
+    grid-row: 1/6;
+    width: 100%;
+    margin-top: 99px;
+}
+.end-text{
+    grid-column: 1/7;
+    grid-row: 1/6;
+    width: 100%;
+    font-size: 150%;
+}
